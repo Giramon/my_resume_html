@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/animation_back.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Резюме</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><button class="btn" id="about_me">Обо мне</button></li>
+                    <li><button class="btn" id="skills">Умения</button></li>
+                    <li><button class="btn" id="my_works">Мои работы</button></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="my_sait">
+            <div class="my_info">
+                <h1>Создатель данного сайта студент 3 курса</h1>
+                <button class="btn hover" id="why_i_btn">Почему я</button>
+            </div>
+        </section>
+        <section class="start">
+            <div class="start_pages_info">
+                <div class="images_technology">
+                    <img src="gif/people.gif" alt="technology">
+                </div>
+                <div class="start_text">
+                    <div class="first_text">
+                        <h1>Меня зовут Андрей</h1>
+                        <h3>Я учусь на программиста, хочу быть Web-разработчиком</h3>
+                    </div>
+                    <div class="second_text">
+                        <p>Я создал данный сайт и ещё несколько крупных проектов на PHP</p>
+                    </div>
+                    <div class="links">
+                        <a href="https://vk.com/andrey16000 "><img src="social/vk.png" alt="vk"></a>
+                        <a href="https://t.me/giramonchic"><img src="social/tg.png" alt="tg"></a>
+                        <a href="https://www.youtube.com/@Giramon"><img src="social/yt.png" alt="yt"></a>
+                        <a href="https://github.com/Giramon"><img src="social/git.png" alt="github"></a>
+                    </div>
+                    <div class="links_button">
+                        <button class="btn" id="info_about_me">Информация обо мне</button>
+                        <button class="btn" id="skill">Мои умения</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info_about">
+            <div class="info_about_me" id="info_about">
+                <div class="text_about">
+                    <div class="first_text">
+                        <h1>Больше информации обо мне:</h1>
+                        <h3>Я учусь на 3 курсе. Опыт работы с HTML, CSS, JS, PHP, Laravel, MySQL, React, Figma</h3>
+                    </div>
+                    <div class="second_text">
+                        <p>Ниже будут представлены мои умения, мои работы</p>
+                    </div>
+                </div>
+                <div class="images_me">
+                    <img src="gif/technology.gif" alt="my">
+                </div>
+            </div>
+        </section>
+        <section class="my_skills">
+            <div class="skills" id="my_skills">
+                <div class="text_skills">
+                    <h1>Мои умения:</h1>
+                </div>
+                <div class="slideshow-container">
+                    <div class="mySlides fade card">
+                        <div class="img">
+                            <img src="skills/html.png" alt="html">
+                        </div>
+                        <div class="text_card">
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="last_text_card">
+                            <p>Вёрстка сайтов</p>
+                        </div>
+                    </div>
+                    <div class="mySlides fade card">
+                        <div class="img">
+                            <img src="skills/css.png" alt="css">
+                        </div>
+                        <div class="text_card">
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="last_text_card">
+                            <p>Настройка объектов в HTML и анимации</p>
+                        </div>
+                    </div>
+                    <div class="mySlides fade card">
+                        <div class="img">
+                            <img src="skills/js.png" alt="js">
+                        </div>
+                        <div class="text_card">
+                            <h3>Java Script</h3>
+                        </div>
+                        <div class="last_text_card">
+                            <p>Созадние dropdawnmenu и логики</p>
+                        </div>
+                    </div>
+                    <div class="mySlides fade card">
+                        <div class="img">
+                            <img src="skills/php.png" alt="php">
+                        </div>
+                        <div class="text_card">
+                            <h3>PHP</h3>
+                        </div>
+                        <div class="last_text_card">
+                            <p>Создание баз данных MySQL и подключение их к сайту</p>
+                        </div>
+                    </div>
+                    <div class="mySlides fade card">
+                        <div class="img">
+                            <img src="skills/laravel.png" alt="laravel">
+                        </div>
+                        <div class="text_card">
+                            <h3>Laravel</h3>
+                        </div>
+                        <div class="last_text_card">
+                            <p>Использование фреймворка Laravel</p>
+                        </div>
+                    </div>
+                    <div class="mySlides fade card">
+                        <div class="img">
+                            <img src="skills/mysql.png" alt="mysql">
+                        </div>
+                        <div class="text_card">
+                            <h3>MySQL</h3>
+                        </div>
+                        <div class="last_text_card">
+                            <p>Создавать таблицы, обрабатывать запросы и делать логику</p>
+                        </div>
+                    </div>
+                    <div class="mySlides fade card">
+                        <div class="img">
+                            <img src="skills/react.png" alt="react">
+                        </div>
+                        <div class="text_card">
+                            <h3>React</h3>
+                        </div>
+                        <div class="last_text_card">
+                            <p>Создание front приложения в VK Mini App</p>
+                        </div>
+                    </div>
+                    <div class="mySlides fade card">
+                        <div class="img">
+                            <img src="skills/figma.png" alt="figma">
+                        </div>
+                        <div class="text_card">
+                            <h3>Figma</h3>
+                        </div>
+                        <div class="last_text_card">
+                            <p>Создание различных макетов проектов и схем</p>
+                        </div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                    <span class="dot" onclick="currentSlide(6)"></span> 
+                    <span class="dot" onclick="currentSlide(7)"></span> 
+                    <span class="dot" onclick="currentSlide(8)"></span> 
+                  </div>
+            </div>
+        </section>
+        <section class="why">
+            <h1>Почему я:</h1>
+            <div class="why_i" id="why_i">
+                <div class="element">
+                    <div class="element_img">
+                        <img src="why_i/adaptive.png" alt="adaptive">
+                    </div>
+                    <div class="element_text">
+                        <h3>Адаптивность</h3>
+                    </div>
+                    <div class="element_info">
+                        <p>Делаю адаптацию под все устройства</p>
+                    </div>
+                </div>
+                <div class="element">
+                    <div class="element_img">
+                        <img src="why_i/calendar.png" alt="calendar">
+                    </div>
+                    <div class="element_text">
+                        <h3>Время работы</h3>
+                    </div>
+                    <div class="element_info">
+                        <p>Работаю каждый день 24/7</p>
+                    </div>
+                </div>
+                <div class="element">
+                    <div class="element_img">
+                        <img src="why_i/speed.png" alt="speed">
+                    </div>
+                    <div class="element_text">
+                        <h3>Скорость</h3>
+                    </div>
+                    <div class="element_info">
+                        <p>Быстро и качественно напишу код</p>
+                    </div>
+                </div>
+                <div class="element">
+                    <div class="element_img">
+                        <img src="why_i/code.png" alt="code">
+                    </div>
+                    <div class="element_text">
+                        <h3>Лёгкость кода</h3>
+                    </div>
+                    <div class="element_info">
+                        <p>Пишу нативный код, в котором легко разобраться</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my_project">
+            <h1>Мои крупные проекты:</h1>
+            <div class="my_works" id="my_work">
+                <div class="work">
+                    <div class="work_img">
+                        <img src="img/html_loop.png" alt="work">
+                    </div>
+                    <div class="name_work">
+                        <h3>HTML The Loop</h3>
+                    </div>
+                    <div class="link_work">
+                        <div class="git">
+                            <a href="https://github.com/Giramon/The-Loop" target="_blank">Перейти на репозиторий GitHub</a>
+                        </div>
+                        <div class="sait">
+                            <a href="https://giramon.github.io/The-Loop/" target="_blank">Перейти на сайт</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="work_img">
+                        <img src="img/html_lux.png" alt="work">
+                    </div>
+                    <div class="name_work">
+                        <h3>HTML Luxorides</h3>
+                    </div>
+                    <div class="link_work">
+                        <div class="git">
+                            <a href="https://github.com/Giramon/Luxorides" target="_blank">Перейти на репозиторий GitHub</a>
+                        </div>
+                        <div class="sait">
+                            <a href="https://giramon.github.io/Luxorides/" target="_blank">Перейти на сайт</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="work_img">
+                        <img src="img/php.png" alt="work">
+                    </div>
+                    <div class="name_work">
+                        <h3>PHP MySQL Zerkalo</h3>
+                    </div>
+                    <div class="link_work">
+                        <div class="git">
+                            <a href="https://github.com/Giramon/Project_PHP_MySQL" target="_blank">Перейти на репозиторий GitHub</a>
+                        </div>
+                        <div class="sait">
+                            <a href="http://giramon.hostingem.ru/beautiful_zerkalo/" target="_blank">Перейти на сайт</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="work_img">
+                        <img src="img/php_laravel_first.png" alt="work">
+                    </div>
+                    <div class="name_work">
+                        <h3>PHP MySQL Laravel CU</h3>
+                    </div>
+                    <div class="link_work">
+                        <div class="git">
+                            <a href="https://github.com/Giramon/Project_PHP_Laravel_CU" target="_blank">Перейти на репозиторий GitHub</a>
+                        </div>
+                        <div class="sait">
+                            <a href="http://giramon.hostingem.ru/my_first_laravel_project/public/index" target="_blank">Перейти на сайт</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="logo_ft">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="footer_links">
+                <h4>Мои соц сети</h4>
+                <div class="vk">
+                    <a href="https://vk.com/andrey16000">VK</a> 
+                </div>
+                <div class="tg">
+                    <a href="https://t.me/giramonchic">Telegram</a>
+                </div>
+                <div class="yt">
+                    <a href="https://www.youtube.com/@Giramon">YouTube</a>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/Giramon">GitHub</a>
+                </div>
+            </div>
+            <div class="footer_text">
+                <h4>На каких языках пишу часто</h4>
+                <div class="ft_tx">
+                    <p>HTML</p>
+                </div>
+                <div class="ft_tx">
+                    <p>PHP</p>
+                </div>
+                <div class="ft_tx">
+                    <p>Laravel</p>
+                </div>
+                <div class="ft_tx">
+                    <p>CSS</p>
+                </div>
+                <div class="ft_tx">
+                    <p>JS</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/js.js"></script>
+</body>
+</html>
