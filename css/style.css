@@ -10,12 +10,14 @@
 }
 
 .logo img {
-    margin-left: 100px;
+    margin-left: 120px;
     width: 80px;
     border-radius: 20px;
 }
 
 .nav ul {
+    width: 800px;
+    margin: 0 auto;
     display: flex;
     list-style: none;
     margin-left: 100px;
@@ -32,7 +34,7 @@
 }
 
 .nav li {
-    margin-left: 100px;
+    margin: 0 auto;
 }
 
 .start_pages_info {
